@@ -1,5 +1,5 @@
 # FreestyleCoding SoruceCodes
-Source codes for FreestyleCoding Youtube channel
+Getting start apps for FreestyleCoding Youtube channel
 
 Project  | Playlist/Video | Reference Links
 ------------- | ------------- | -------------|
