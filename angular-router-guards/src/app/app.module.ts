@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { DownloadsComponent } from './downloads/downloads.component';
 import { MakeCourseComponent } from './make-course/make-course.component';
-
+import { FormsModule } from '@angular/forms';
 
 
 const routes = [{path:"",component:HomeComponent},
@@ -33,6 +33,7 @@ const routes = [{path:"",component:HomeComponent},
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

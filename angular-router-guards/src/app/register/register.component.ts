@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
+  user: Object = {};
   constructor() { }
 
   ngOnInit() {
+  }
+
+  submit(){
+    console.log(this.user)
   }
 
 }
